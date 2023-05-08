@@ -4,4 +4,5 @@ requests
 beautifulsoup4
 openai
 tiktoken
+trafilatura
 python-dotenv
