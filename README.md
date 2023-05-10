@@ -1,5 +1,5 @@
 # GPTBot
-GPTBot is a Slack chatbot designed to assist users with various questions.
+GPTBot is a Slack chatbot that uses GPT-4 to assist users with various questions.
 
 ## Features
 - Extract URLs from user messages
