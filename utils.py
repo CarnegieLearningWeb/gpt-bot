@@ -83,6 +83,7 @@ def num_tokens_from_messages(messages, model="gpt-4"):
     num_tokens += 3  # every reply is primed with <|start|>assistant<|message|>
     return num_tokens
 
+
 def process_conversation_history(conversation_history, bot_user_id):
     messages = [{"role": "system", "content": SYSTEM_PROMPT}]
     for message in conversation_history["messages"][:-1]:
