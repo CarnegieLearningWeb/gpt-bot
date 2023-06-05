@@ -17,8 +17,8 @@ You are an AI assistant.
 You will answer the question as truthfully as possible.
 If you're unsure of the answer, say Sorry, I don't know.
 """
-WAIT_MESSAGE = "Got your request. Please wait."
-N_CHUNKS_TO_CONCAT_BEFORE_UPDATING = 20
+WAIT_MESSAGE = "Got your request. Please wait..."
+N_CHUNKS_TO_CONCAT_BEFORE_UPDATING = 10
 MAX_TOKENS = 8192
 
 
